@@ -8,7 +8,6 @@ from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
 from sklearn.preprocessing import LabelEncoder
 from xgboost import XGBClassifier
-import pickle
 import pandas as pd
 
 # Load model and encoders
