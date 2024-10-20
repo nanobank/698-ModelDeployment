@@ -1,3 +1,4 @@
+
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -7,6 +8,10 @@ from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
 from sklearn.preprocessing import LabelEncoder
 from xgboost import XGBClassifier
+import pickle
+import pandas as pd
+
+# Load model and encoders
 import pickle
 
 # Load model and encoders
